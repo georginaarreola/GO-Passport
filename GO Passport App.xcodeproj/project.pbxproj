@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE06191A208E7E9600CB18D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE061919208E7E9600CB18D8 /* AppDelegate.swift */; };
+		BE06191C208E7E9600CB18D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE06191B208E7E9600CB18D8 /* ViewController.swift */; };
+		BE06191F208E7E9600CB18D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE06191D208E7E9600CB18D8 /* Main.storyboard */; };
+		BE061921208E7E9600CB18D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE061920208E7E9600CB18D8 /* Assets.xcassets */; };
+		BE061924208E7E9600CB18D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE061922208E7E9600CB18D8 /* LaunchScreen.storyboard */; };
+		BE06192C208E887F00CB18D8 /* StudentAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE06192B208E887F00CB18D8 /* StudentAccountViewController.swift */; };
+		BEF8FA7C209018600035067A /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8FA7B209018600035067A /* ContactsViewController.swift */; };
+		EF4F0EFA20996FCD002D73AA /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F0EF920996FCD002D73AA /* ProgramViewController.swift */; };
+		EF561939209C07D2006D3E09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF561938209C07D2006D3E09 /* SecondViewController.swift */; };
+		EF56193B209C1D38006D3E09 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56193A209C1D38006D3E09 /* ContactViewController.swift */; };
+		EF56193D209C26B2006D3E09 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF56193C209C26B2006D3E09 /* AddContactViewController.swift */; };
+		EFBF2588208FA1E600CB59BA /* UniversityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF2587208FA1E600CB59BA /* UniversityPickerViewController.swift */; };
+		EFBF258A208FC4A800CB59BA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF2589208FC4A800CB59BA /* LogInViewController.swift */; };
+		EFBF258C208FC53700CB59BA /* StudentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF258B208FC53700CB59BA /* StudentProfileViewController.swift */; };
+		EFBF258E2090D7AF00CB59BA /* ProgramSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBF258D2090D7AF00CB59BA /* ProgramSearchViewController.swift */; };
+		EFE101C8209B982A00419861 /* tableViewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE101C7209B982A00419861 /* tableViewFile.swift */; };
+		EFFBAD7B20910D3900C9D499 /* ProviderAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBAD7A20910D3900C9D499 /* ProviderAccountViewController.swift */; };
+		EFFBAD7D20910F3F00C9D499 /* ProviderProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBAD7C20910F3F00C9D499 /* ProviderProfileViewController.swift */; };
+		EFFBAD7F20911A8A00C9D499 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBAD7E20911A8A00C9D499 /* QRScannerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE061916208E7E9600CB18D8 /* GO Passport App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GO Passport App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE061919208E7E9600CB18D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE06191B208E7E9600CB18D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE06191E208E7E9600CB18D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE061920208E7E9600CB18D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE061923208E7E9600CB18D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE061925208E7E9600CB18D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE06192B208E887F00CB18D8 /* StudentAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAccountViewController.swift; sourceTree = "<group>"; };
+		BEF8FA7B209018600035067A /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		EF4F0EF920996FCD002D73AA /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		EF561938209C07D2006D3E09 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EF56193A209C1D38006D3E09 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		EF56193C209C26B2006D3E09 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		EFBF2587208FA1E600CB59BA /* UniversityPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityPickerViewController.swift; sourceTree = "<group>"; };
+		EFBF2589208FC4A800CB59BA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		EFBF258B208FC53700CB59BA /* StudentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileViewController.swift; sourceTree = "<group>"; };
+		EFBF258D2090D7AF00CB59BA /* ProgramSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramSearchViewController.swift; sourceTree = "<group>"; };
+		EFE101C7209B982A00419861 /* tableViewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewFile.swift; sourceTree = "<group>"; };
+		EFFBAD7A20910D3900C9D499 /* ProviderAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAccountViewController.swift; sourceTree = "<group>"; };
+		EFFBAD7C20910F3F00C9D499 /* ProviderProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProfileViewController.swift; sourceTree = "<group>"; };
+		EFFBAD7E20911A8A00C9D499 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE061913208E7E9600CB18D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE06190D208E7E9600CB18D8 = {
+			isa = PBXGroup;
+			children = (
+				BE061918208E7E9600CB18D8 /* GO Passport App */,
+				BE061917208E7E9600CB18D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE061917208E7E9600CB18D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE061916208E7E9600CB18D8 /* GO Passport App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE061918208E7E9600CB18D8 /* GO Passport App */ = {
+			isa = PBXGroup;
+			children = (
+				EF56193C209C26B2006D3E09 /* AddContactViewController.swift */,
+				BE061919208E7E9600CB18D8 /* AppDelegate.swift */,
+				BE06191B208E7E9600CB18D8 /* ViewController.swift */,
+				BE06192B208E887F00CB18D8 /* StudentAccountViewController.swift */,
+				BE06191D208E7E9600CB18D8 /* Main.storyboard */,
+				EF56193A209C1D38006D3E09 /* ContactViewController.swift */,
+				EF561938209C07D2006D3E09 /* SecondViewController.swift */,
+				EF4F0EF920996FCD002D73AA /* ProgramViewController.swift */,
+				EFFBAD7E20911A8A00C9D499 /* QRScannerViewController.swift */,
+				EFFBAD7C20910F3F00C9D499 /* ProviderProfileViewController.swift */,
+				EFFBAD7A20910D3900C9D499 /* ProviderAccountViewController.swift */,
+				EFBF258D2090D7AF00CB59BA /* ProgramSearchViewController.swift */,
+				BEF8FA7B209018600035067A /* ContactsViewController.swift */,
+				EFBF258B208FC53700CB59BA /* StudentProfileViewController.swift */,
+				EFBF2589208FC4A800CB59BA /* LogInViewController.swift */,
+				EFBF2587208FA1E600CB59BA /* UniversityPickerViewController.swift */,
+				BE061920208E7E9600CB18D8 /* Assets.xcassets */,
+				BE061922208E7E9600CB18D8 /* LaunchScreen.storyboard */,
+				BE061925208E7E9600CB18D8 /* Info.plist */,
+				EFE101C7209B982A00419861 /* tableViewFile.swift */,
+			);
+			path = "GO Passport App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE061915208E7E9600CB18D8 /* GO Passport App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE061928208E7E9600CB18D8 /* Build configuration list for PBXNativeTarget "GO Passport App" */;
+			buildPhases = (
+				BE061912208E7E9600CB18D8 /* Sources */,
+				BE061913208E7E9600CB18D8 /* Frameworks */,
+				BE061914208E7E9600CB18D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GO Passport App";
+			productName = "GO Passport App";
+			productReference = BE061916208E7E9600CB18D8 /* GO Passport App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE06190E208E7E9600CB18D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Geo;
+				TargetAttributes = {
+					BE061915208E7E9600CB18D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE061911208E7E9600CB18D8 /* Build configuration list for PBXProject "GO Passport App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE06190D208E7E9600CB18D8;
+			productRefGroup = BE061917208E7E9600CB18D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE061915208E7E9600CB18D8 /* GO Passport App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE061914208E7E9600CB18D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE061924208E7E9600CB18D8 /* LaunchScreen.storyboard in Resources */,
+				BE061921208E7E9600CB18D8 /* Assets.xcassets in Resources */,
+				BE06191F208E7E9600CB18D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE061912208E7E9600CB18D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE06191C208E7E9600CB18D8 /* ViewController.swift in Sources */,
+				EF56193B209C1D38006D3E09 /* ContactViewController.swift in Sources */,
+				EFBF2588208FA1E600CB59BA /* UniversityPickerViewController.swift in Sources */,
+				EFBF258E2090D7AF00CB59BA /* ProgramSearchViewController.swift in Sources */,
+				EF561939209C07D2006D3E09 /* SecondViewController.swift in Sources */,
+				EFBF258A208FC4A800CB59BA /* LogInViewController.swift in Sources */,
+				BE06192C208E887F00CB18D8 /* StudentAccountViewController.swift in Sources */,
+				EF56193D209C26B2006D3E09 /* AddContactViewController.swift in Sources */,
+				EF4F0EFA20996FCD002D73AA /* ProgramViewController.swift in Sources */,
+				EFE101C8209B982A00419861 /* tableViewFile.swift in Sources */,
+				BEF8FA7C209018600035067A /* ContactsViewController.swift in Sources */,
+				EFFBAD7B20910D3900C9D499 /* ProviderAccountViewController.swift in Sources */,
+				EFFBAD7F20911A8A00C9D499 /* QRScannerViewController.swift in Sources */,
+				EFFBAD7D20910F3F00C9D499 /* ProviderProfileViewController.swift in Sources */,
+				EFBF258C208FC53700CB59BA /* StudentProfileViewController.swift in Sources */,
+				BE06191A208E7E9600CB18D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE06191D208E7E9600CB18D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE06191E208E7E9600CB18D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE061922208E7E9600CB18D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE061923208E7E9600CB18D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE061926208E7E9600CB18D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE061927208E7E9600CB18D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE061929208E7E9600CB18D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5N8R36YQN;
+				INFOPLIST_FILE = "GO Passport App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.example.www.GO-Passport-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE06192A208E7E9600CB18D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5N8R36YQN;
+				INFOPLIST_FILE = "GO Passport App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.example.www.GO-Passport-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE061911208E7E9600CB18D8 /* Build configuration list for PBXProject "GO Passport App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE061926208E7E9600CB18D8 /* Debug */,
+				BE061927208E7E9600CB18D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE061928208E7E9600CB18D8 /* Build configuration list for PBXNativeTarget "GO Passport App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE061929208E7E9600CB18D8 /* Debug */,
+				BE06192A208E7E9600CB18D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE06190E208E7E9600CB18D8 /* Project object */;
+}
